@@ -28,8 +28,11 @@ vectorize_layer = TextVectorization(
     output_sequence_length=sequence_length,
 )
 
+print("Please enter an argumentative element as a sentence:")
+input1 = input()
+input = np.array([input1, 1])
 #input = np.array(["Although cell phones caused my mother to leave, most phones are bad", 1])
-input = np.array(["They're not the number one killer of mice in the U.S. as of 2009", 1])
+#input = np.array(["They're not the number one killer of mice in the U.S. as of 2009", 1])
 #input = np.array(["They're in my head they're all in my head oh god oh jesus", 1])
 #input = np.array(["26% of cell phones on the moon are a negative health risk to Americans"])
 #input = np.array(["In conclusion, there is no way I'm moving anywhere near a cell tower after this.", 1])
